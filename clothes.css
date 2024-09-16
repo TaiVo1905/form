@@ -1,0 +1,58 @@
+.container {
+    width: 600px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.heading {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.input {
+    display: flex;
+}
+
+.input label{
+    width: 150px;
+}
+
+#name, #qty, #unitPrice {
+    flex-grow: 1;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    width: 64px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 3px solid #757373;
+}
+
+#tbl{
+    width: 600px;
+    border-spacing: 0;
+    margin-top: 10px;
+}
+
+#tbl th, #tbl td {
+    text-align: left;
+    height: 50px;
+    padding-left: 10px;
+
+}
+
+#tbl th {
+    background-color: #000;
+    color: #fff;
+}
+
+#tbl td{
+    border-bottom: 1px solid #ccc;
+}

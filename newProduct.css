@@ -1,13 +1,14 @@
 #tbl{
     width: 600px;
-    /* border-spacing: 0; */
+    border-spacing: 0;
     border: 1px solid #bbb;
+    margin-top: 10px;
 }
 #tbl tr{
     height: 27px;
 }
 
-#tbl tr th, #tbl tr td{
+#tbl th, #tbl td{
     text-align: left;
-    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./clothes.css" />
+    <script src="./clothes.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Clothes</h1>
+      <form action="" name="frm">
+        <div class="input">
+          <label for="name">Product Name:</label>
+          <input type="text" id="name" name="name" required/>
+        </div>
+        <br/>
+
+        <div class="input">
+          <label for="qty">Quantity:</label>
+          <input type="number" id="qty" name="quantity" required/>
+        </div>
+        <br/>
+
+        <div class="input">
+          <label for="unitPrice">Unit Price:</label>
+          <input type="number" id="unitPrice" name="unitPrice" required/>
+        </div>
+        <br>
+        <button type="button" onclick="add()">Add</button>
+      </form>
+
+      <table id="tbl">
+        <tr>
+          <th>No</th>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Unit price</th>
+          <th>Subtotal</th>
+        </tr>
+        <tbody id="product"></tbody>
+        <tr>
+          <td colspan="4"><b>Total</b></td>
+          <td id="total">0</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
